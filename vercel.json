@@ -5,10 +5,10 @@
             "use": "@vercel/python"
         }
     ],
-    "routes": [
+    "rewrites": [
         {
-            "src": "/api/(.*)",
-            "dest": "test.py"
+            "source": "/api/(.*)",
+            "destination": "/test.py"
         }
     ]
 }
