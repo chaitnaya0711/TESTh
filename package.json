@@ -1,0 +1,16 @@
+{
+    "name": "techtrove-site",
+    "version": "1.0.0",
+    "description": "Bharat's Premier Unified Service Network",
+    "main": "index.html",
+    "scripts": {
+        "start": "npx serve ."
+    },
+    "keywords": [
+        "techtrove",
+        "service",
+        "india"
+    ],
+    "author": "Antigravity",
+    "license": "MIT"
+}

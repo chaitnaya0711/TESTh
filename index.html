@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TroveTech - Ecosystem</title>
+
+    <!-- Premium Geometric Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Link to Modularized CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- SVG Morph Filter for Startup Intro -->
+    <svg style="position: absolute; width: 0; height: 0; pointer-events: none;">
+        <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+            <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+    </svg>
+
+    <!-- 1. Transparent Desktop Header / Clean Solid Mobile Bar -->
+    <header class="top-header">
+        <div class="brand-wrapper">
+            <div class="brand-intro-shifter">
+                <div class="logo-mark">
+                    <div class="dots-wrapper">
+                        <div class="shape dot tr-dot"></div>
+                        <div class="shape dot bl-dot"></div>
+                    </div>
+                    <div class="shape tl"></div>
+                    <div class="shape br"></div>
+                </div>
+                <div class="logo-text">
+                    <span class="brand-bold">Trove</span><span class="brand-light">Tech</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Liquid Minimal Theme Switcher -->
+        <div class="liquid-toggle-wrapper">
+            <input type="checkbox" id="theme-switch">
+            <label for="theme-switch" class="liquid-track">
+                <div class="liquid-blob"></div>
+            </label>
+        </div>
+    </header>
+
+    <!-- 2. Main Flow Engine -->
+    <main class="main-layout">
+
+        <!-- Mobile Flow Hero / PC Fixed Right Panel -->
+        <div class="blue-hero">
+
+            <!-- Fixes the gradient snap bug perfectly via Opacity Fades -->
+            <div class="hero-bg-light"></div>
+            <div class="hero-bg-dark"></div>
+            <div class="grid-bg"></div>
+
+            <div class="presentation-wrapper">
+                <div class="device-container">
+                    <div class="mech-chassis">
+                        <div class="mech-screen"></div>
+                        <div class="mech-detail"></div>
+                        <div class="mech-base"></div>
+                    </div>
+                </div>
+
+                <div class="device-caption-container">
+                    <div class="caption-slider">
+                        <div class="caption-slide">From <span class="text-bold">Home Appliances</span>,</div>
+                        <div class="caption-slide">to <span class="text-bold">Smartphones</span>,</div>
+                        <div class="caption-slide"><span class="text-bold">500 plus</span> Service Centers,</div>
+                        <div class="caption-slide">Across every state in <span class="text-bold">India</span>,</div>
+                        <div class="caption-slide">A single point of <span class="text-bold">contact</span>,</div>
+                        <div class="caption-slide highlight-slide">TroveTech Has You Covered.</div>
+                        <div class="caption-slide">From <span class="text-bold">Home Appliances</span>,</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Editorial Text & Sections -->
+        <div class="content-scroll">
+            <section class="editorial">
+                <h1 class="hero-reveal-up">Bharat's Premier<br>Unified Service.</h1>
+                <p class="hero-reveal-up-delay">We provide a comprehensive and distributed service network across the
+                    subcontinent. By consolidating our nationwide operations, we offer our clients a single point of
+                    support, eliminating the complexity of coordinating across multiple vendors.</p>
+
+                <div class="image-card reveal-up">
+                    <img src="./assets/service-network.png" alt="India Service Operations Hub">
+                </div>
+
+                <h2 class="reveal-up">A Pan-India Solution</h2>
+                <p class="reveal-up">We deliver exceptional support for all consumer electronics and household
+                    appliances. From mobile devices to large home systems, our vast network of over 500 service centers
+                    ensures world-class assistance in every major city and town across the country.</p>
+
+                <div class="image-card reveal-up">
+                    <img src="./assets/electronics-repair.png" alt="Authorized Indian Service Center">
+                </div>
+
+                <h2 class="reveal-up">Reducing Operational Stress</h2>
+                <p class="reveal-up">Focus on your business growth while we manage the intricacies of service logistics.
+                    Our expert team handles everything from GST compliance and technical operations to driving
+                    nationwide network expansion with absolute precision.</p>
+            </section>
+
+            <!-- Dynamic Contact Section -->
+            <section class="contact-section">
+                <div class="editorial">
+                    <h1 class="reveal-up" data-reveal-delay="0">Let's Connect.</h1>
+                    <p class="reveal-up" data-reveal-delay="120">Reach out to discuss your next ecosystem setup. Connect
+                        with our experts today.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <a href="mailto:contact@trovetech.com" class="contact-btn reveal-up" data-reveal-delay="240">
+                        <span>Email Us</span>
+                        <span>↗</span>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <!-- Link to Modularized Javascript -->
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
